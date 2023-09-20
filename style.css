@@ -1,0 +1,56 @@
+body{
+    /*background-image: url(https://media.istockphoto.com/id/824845572/photo/thermometer-sun-high-degres-hot-summer-day-high-summer-temperatures.jpg?s=612x612&w=0&k=20&c=MyYLgJ9NKAGMGh69lTW1r03_f91pozcmrZyPo9Oqcu8=);*/
+    background-image: url('background1.jpg');
+    background-size: cover;
+    margin:0;
+    /*background: linear-gradient(to left bottom,green,yellow);*/
+    min-height: 100vh;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+}
+
+.heading{
+    color:tomato;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+.container{
+    opacity: 80%;
+    background-color:lightgrey;
+    padding: 10px;
+    width: 85%;
+    max-width: 500px;
+    min-height: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temp-converter{
+    color: tomato;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 25px;
+    text-align: left;
+    width:100%;
+    padding: 15px;
+}
+
+.input{
+    width: 220px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    padding: 5px;
+    font-size: 15px;
+    background-color:white;
+    border-color: lightblue;
+    opacity: 80%;
+    color:red;
+
+    outline: none;
+
+}
